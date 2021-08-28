@@ -1,0 +1,28 @@
+body {
+  min-width: 300px;
+  padding: 0.5rem;
+}
+
+.heading {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.main-inputs-container {
+  padding: 1rem 0;
+}
+
+.main-inputs-container:first-child {
+  padding-right: 1rem;
+}
+
+.align-center {
+  align-items: center;
+}
