@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="flex flex-col">
+    <div class="heading"><h3>PX to REM converter</h3></div>
+    <label for="base">Base</label>
+    <input id="base" type="number" />
+    <div class="flex main-inputs-container">
+      <div class="main-inputs flex align-center">
+        <label for="px">PX</label>
+        <input onchange="test()" id="px" type="number" />
+      </div>
+      <div class="main-inputs flex align-center">
+        <label for="rem">REM</label>
+        <input id="rem" type="number" />
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
